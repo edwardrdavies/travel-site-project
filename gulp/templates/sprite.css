@@ -1,0 +1,16 @@
+/*DO NOT EDIT CLASSES DIRECTLY IN _SPRITE.CSS FILE AS IT IS AUTOMATICALLY GENERATED FROM GULP/TEMPLATES/SPRITE.CSS*/
+
+{{#shapes}}
+
+    {{#first}}
+        .icon {
+            background-image: url('/temp/sprite/css/{{{sprite}}}');
+        }
+    {{/first}}
+
+    .icon--{{base}} {
+        width: {{width.outer}}px;
+        height: {{height.outer}}px;
+        background-position: {{position.relative.xy}};
+    }
+{{/shapes}}
